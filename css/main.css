@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
+nav {
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+nav a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  font-family: "PT Serif", serif;
+}
+
+p:nth-of-type(1) {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+blockquote > p:first-child {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: normal;
+}
+
+blockquote > footer {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+ol > li {
+  list-style-type: lower-greek;
+}
+
+h2 ~ p {
+  font-style: italic;
+  font-family: "PT Serif", serif;
+}
+
+dl > dt {
+  font-weight: bold;
+  font-family: "PT Serif", serif;
+}
+
+ul > li {
+  font-size: .8rem;
+  font-family: "PT Serif", serif;
+  list-style-type: circle;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
